@@ -22,7 +22,7 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 200px;
 }
 
 nav ul {
@@ -32,10 +32,11 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 10px;
+  margin-left: 20px;
 }
 
 nav ul li a {
-  color: re;
+  color: white;
   text-decoration: none;
   padding: 5px;
 }
@@ -96,3 +97,25 @@ footer {
 .preformatted {
   white-space: pre;
 }
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-scroll {
+  overflow: scroll;
+}
+/* MyComponent.css */
+
+.my-component {
+  /* Styles for all screen sizes */
+
+  /* Mobile-specific styles */
+  @media (max-width: 767px) {
+    /* Styles for mobile screens */
+  }
+
+  /* Tablet and desktop-specific styles */
+  @media (min-width: 768px) {
+    /* Styles for tablet and desktop screens */
+  }
+}
+

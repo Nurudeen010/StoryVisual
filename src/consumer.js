@@ -38,7 +38,7 @@ function MyComponent() {
             <div class="container">
                 <h1>Welcome to My Blog</h1>
                 {
-                    data.map(item => <div >
+                    data.map(item => <div className='overflow-x-hidden overflow-scroll story-container' >
                     <h2>{item.title}</h2>
                     <p className='preformatted'>{item.story}</p>
                     </div>

@@ -7,7 +7,7 @@ import MyComponent from "./consumer";
 class App extends Component {
     render() {
         return (
-            <div>
+            <div className="my-component">
                 <Header />
                 <MyComponent />
                 <Footer />
